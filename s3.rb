@@ -117,7 +117,7 @@ class LogStash::Outputs::S3X < LogStash::Outputs::Base
  config :message_format, :validate => :string
 
  # s3_tempdir
- config :temp_directory, :validate => :string, :default => "/var/lib/logstash/s3_temp/"
+ config :temp_directory, :validate => :string, :default => "/var/lib/logstash/S3_temp/"
 
  # s3_tempdir_owner
  config :s3_tempdir_owner, :validate => :string, :default => "logstash"
